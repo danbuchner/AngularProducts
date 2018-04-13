@@ -1,0 +1,36 @@
+header {
+    background:linear-gradient(#7e7e7e, #e7e7e7, #7e7e7e);
+}
+
+#logo{
+    color:#f80000;
+    font-weight:900;
+    padding:15px 0;
+    display:block;
+}
+
+ul {
+    list-style-type:none;
+    float:right;
+    margin:0;
+    padding:0;
+}
+
+ul li{
+    /* display:inline; */
+    float:left;
+}
+
+ul li a {
+    color:#2b1515;
+    padding:15px 30px;
+    display:block;
+    text-transform:uppercase;
+    font-weight:700;
+}
+
+ul li a:hover{
+    border-radius: 50px;
+    background:radial-gradient(circle, #7e7e7e, rgb(231, 231, 231,0.3), rgb(231, 231, 231, 0.1));
+    color: #2b1515;
+}
